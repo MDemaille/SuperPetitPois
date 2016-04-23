@@ -17,12 +17,15 @@ public class PlayerButtonWeaponController : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        _animManager.SetBoolParameter(CharacterState.Shooting, false);
+        if(_animManager != null)
+            _animManager.SetBoolParameter(CharacterState.Shooting, false);
 
         _timer += Time.deltaTime;
         if (Input.GetButton("Fire1"))
         {
-            _animManager.SetBoolParameter(CharacterState.Shooting, true);
+            if (_animManager != null)
+                _animManager.SetBoolParameter(CharacterState.Shooting, true);
+
             if (_timer > weaponComponent.FireRate)
             {
                 _timer = 0;

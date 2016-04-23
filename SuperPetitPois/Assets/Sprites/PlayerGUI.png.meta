@@ -1,0 +1,211 @@
+fileFormatVersion: 2
+guid: 2d63b5c8f265d1241a7a9e191672ac3b
+timeCreated: 1461424834
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HealthContainer
+    21300002: BarGreen
+    21300004: EnergyContainer
+    21300006: BarBlue
+    21300008: BarPurple
+    21300010: BarPink
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: HealthContainer
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 145
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68.5, y: -206}
+        - {x: 71.5, y: -171}
+        - {x: 72.5, y: -153}
+        - {x: 72.5, y: 144}
+        - {x: 71.5, y: 188}
+        - {x: 67.5, y: 237}
+        - {x: 64.5, y: 246}
+        - {x: 60.5, y: 250}
+        - {x: 53.5, y: 253}
+        - {x: 45.5, y: 255}
+        - {x: 40.5, y: 256}
+        - {x: -41.5, y: 256}
+        - {x: -57.5, y: 251}
+        - {x: -63.5, y: 245}
+        - {x: -68.5, y: 225}
+        - {x: -72.5, y: 137}
+        - {x: -72.5, y: -192}
+        - {x: -70.5, y: -220}
+        - {x: -67.5, y: -243}
+        - {x: -54.5, y: -253}
+        - {x: -36.5, y: -256}
+        - {x: 32.5, y: -256}
+        - {x: 50.5, y: -251}
+        - {x: 55.5, y: -248}
+        - {x: 63.5, y: -238}
+    - name: BarGreen
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 11
+        width: 116
+        height: 490
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58, y: -161}
+        - {x: 58, y: 160}
+        - {x: 57, y: 183}
+        - {x: 54, y: 234}
+        - {x: 48, y: 241}
+        - {x: 41, y: 244}
+        - {x: 31, y: 245}
+        - {x: -31, y: 245}
+        - {x: -47, y: 241}
+        - {x: -55, y: 226}
+        - {x: -58, y: 139}
+        - {x: -58, y: -203}
+        - {x: -55, y: -232}
+        - {x: -50, y: -238}
+        - {x: -32, y: -245}
+        - {x: 26, y: -245}
+        - {x: 41, y: -240}
+        - {x: 49, y: -233}
+        - {x: 55, y: -215}
+    - name: EnergyContainer
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 9
+        width: 73
+        height: 477
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 238.5}
+        - {x: -24.5, y: 238.5}
+        - {x: -28.5, y: 235.5}
+        - {x: -34.5, y: 227.5}
+        - {x: -36.5, y: 186.5}
+        - {x: -36.5, y: -228.5}
+        - {x: -21.5, y: -238.5}
+        - {x: 18.5, y: -238.5}
+        - {x: 36.5, y: -225.5}
+        - {x: 36.5, y: 178.5}
+        - {x: 34.5, y: 229.5}
+    - name: BarBlue
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 19
+        width: 58
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 228}
+        - {x: -27, y: 223}
+        - {x: -29, y: 190}
+        - {x: -29, y: -225}
+        - {x: -20, y: -228}
+        - {x: 20, y: -228}
+        - {x: 29, y: -218}
+        - {x: 29, y: 219}
+        - {x: 25, y: 228}
+    - name: BarPurple
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 20
+        width: 58
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 228}
+        - {x: -29, y: 225}
+        - {x: -29, y: -200}
+        - {x: -28, y: -218}
+        - {x: -17, y: -228}
+        - {x: 20, y: -228}
+        - {x: 29, y: -219}
+        - {x: 29, y: 226}
+        - {x: 28, y: 228}
+    - name: BarPink
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 20
+        width: 58
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 228}
+        - {x: -21, y: 228}
+        - {x: -29, y: 226}
+        - {x: -29, y: -227}
+        - {x: -23, y: -228}
+        - {x: 21, y: -228}
+        - {x: 28, y: -220}
+        - {x: 29, y: -201}
+        - {x: 29, y: 222}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

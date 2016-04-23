@@ -85,8 +85,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Direction: {x: 0, y: 0}
-  PhysicsValues:
-    Speed: 20
+  Speed: 15
 --- !u!114 &11489024
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -9,6 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 446982}
   - 212: {fileID: 21205932}
+  - 114: {fileID: 11469562}
   m_Layer: 0
   m_Name: SPPFootRight
   m_TagString: Untagged
@@ -25,6 +26,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 487162}
   - 212: {fileID: 21221270}
+  - 114: {fileID: 11470636}
   m_Layer: 0
   m_Name: SPPFootLeft
   m_TagString: Untagged
@@ -62,7 +64,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &148588
 GameObject:
   m_ObjectHideFlags: 1
@@ -187,10 +189,12 @@ GameObject:
   m_Component:
   - 4: {fileID: 493842}
   - 114: {fileID: 11461170}
+  - 114: {fileID: 11429090}
   - 114: {fileID: 11427686}
   - 114: {fileID: 11414638}
-  - 58: {fileID: 5861188}
+  - 114: {fileID: 11420484}
   - 114: {fileID: 11441766}
+  - 58: {fileID: 5861188}
   m_Layer: 0
   m_Name: Player_SPP
   m_TagString: Player
@@ -376,7 +380,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 191094}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.679, y: 0.262, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 440864}
@@ -439,6 +443,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5c260b4e44250e48a2bc5e2186fc5bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11420484
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 191094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 264860f18f12ea94c8a1f1a49dd2746d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpecialSteps:
+  - 25
+  - 50
+  - 100
+  SpecialAttacks:
+  - {fileID: 123568, guid: f8e469835f1f77842b97ec34eff5cc2d, type: 2}
+  - {fileID: 133832, guid: 2101da66ab8e5d2458ffac701b378bb7, type: 2}
+  - {fileID: 137280, guid: 6d9e92eee926c8f479137a83af5e4aee, type: 2}
+  Shields:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &11427686
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -451,8 +478,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Direction: {x: 0, y: 0}
-  PhysicsValues:
-    Speed: 10
+  Speed: 10
+--- !u!114 &11429090
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 191094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d0e2d345cd54b141b75bc9fd7aae525, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxEnergy: 300
+  HPTransferedBySecond: 50
 --- !u!114 &11441766
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -508,8 +547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56889b25af99247469ecb84f55fde7ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  properties:
-    MaxHealth: 100
+  MaxHealth: 100
 --- !u!114 &11462776
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -538,6 +576,36 @@ MonoBehaviour:
   ObjectToTurnAround: {fileID: 481896}
   Speed: 500
   FreezeLocalRotation: 1
+--- !u!114 &11469562
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f43d337b094f1e94089d996694ff597f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxOrientation: 30
+  SpeedRotation: 10
+  MovementController: {fileID: 11427686}
+  MovementType: 0
+--- !u!114 &11470636
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 113374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f43d337b094f1e94089d996694ff597f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxOrientation: 30
+  SpeedRotation: 10
+  MovementController: {fileID: 11427686}
+  MovementType: 0
 --- !u!114 &11478240
 MonoBehaviour:
   m_ObjectHideFlags: 1
