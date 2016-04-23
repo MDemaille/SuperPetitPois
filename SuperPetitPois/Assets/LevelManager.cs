@@ -4,8 +4,8 @@ using System.Collections;
 public class LevelManager : MonoBehaviour {
 
     //Timers
-    private static int _backgroundSpeedTimer = 1;
-    public static int BackgroundSpeedTimer;
+    private static float _backgroundSpeedTimer = 1;
+    public static float BackgroundSpeedTimer;
 
     void Start()
     {

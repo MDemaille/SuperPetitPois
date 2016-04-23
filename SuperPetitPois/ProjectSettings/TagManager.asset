@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Background
+  - Shots
+  - Boundary
   layers:
   - Default
   - TransparentFX
@@ -43,5 +45,11 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: Background
+    uniqueID: 2559082809
+    locked: 0
+  - name: Player
     uniqueID: 809495945
+    locked: 0
+  - name: Shots
+    uniqueID: 3892921737
     locked: 0

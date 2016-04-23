@@ -1,0 +1,283 @@
+fileFormatVersion: 2
+guid: bdef4133fb5e08f42a0eee9b89276b90
+timeCreated: 1461403243
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SPPHappy
+    21300002: SPPShooting
+    21300004: SPPFoot
+    21300006: SPPPower
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 512
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SPPHappy
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 504
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 90, y: -239}
+        - {x: 99, y: -235}
+        - {x: 119, y: -226}
+        - {x: 126, y: -222}
+        - {x: 142, y: -212}
+        - {x: 158, y: -200}
+        - {x: 177, y: -183}
+        - {x: 190, y: -169}
+        - {x: 202, y: -154}
+        - {x: 212, y: -158}
+        - {x: 225, y: -164}
+        - {x: 240, y: -161}
+        - {x: 248, y: -157}
+        - {x: 255, y: -148}
+        - {x: 256, y: -146}
+        - {x: 256, y: -117}
+        - {x: 245, y: -106}
+        - {x: 237, y: -103}
+        - {x: 230, y: -102}
+        - {x: 237, y: -90}
+        - {x: 248, y: -48}
+        - {x: 249, y: -33}
+        - {x: 250, y: -23}
+        - {x: 250, y: 21}
+        - {x: 248, y: 39}
+        - {x: 244, y: 65}
+        - {x: 233, y: 97}
+        - {x: 219, y: 127}
+        - {x: 213, y: 139}
+        - {x: 192, y: 168}
+        - {x: 169, y: 191}
+        - {x: 161, y: 198}
+        - {x: 143, y: 212}
+        - {x: 122, y: 225}
+        - {x: 96, y: 237}
+        - {x: 80, y: 244}
+        - {x: 53, y: 250}
+        - {x: 46, y: 252}
+        - {x: -39, y: 252}
+        - {x: -62, y: 247}
+        - {x: -82, y: 241}
+        - {x: -101, y: 235}
+        - {x: -127, y: 221}
+        - {x: -140, y: 213}
+        - {x: -153, y: 204}
+        - {x: -169, y: 191}
+        - {x: -200, y: 159}
+        - {x: -212, y: 143}
+        - {x: -224, y: 124}
+        - {x: -243, y: 85}
+        - {x: -249, y: 65}
+        - {x: -254, y: 36}
+        - {x: -256, y: 19}
+        - {x: -256, y: -25}
+        - {x: -252, y: -52}
+        - {x: -249, y: -69}
+        - {x: -238, y: -100}
+        - {x: -248, y: -109}
+        - {x: -253, y: -115}
+        - {x: -255, y: -117}
+        - {x: -256, y: -120}
+        - {x: -256, y: -146}
+        - {x: -255, y: -148}
+        - {x: -248, y: -156}
+        - {x: -237, y: -161}
+        - {x: -226, y: -163}
+        - {x: -215, y: -159}
+        - {x: -207, y: -153}
+        - {x: -199, y: -163}
+        - {x: -172, y: -190}
+        - {x: -156, y: -204}
+        - {x: -140, y: -215}
+        - {x: -123, y: -226}
+        - {x: -102, y: -236}
+        - {x: -89, y: -241}
+        - {x: -62, y: -249}
+        - {x: -45, y: -252}
+        - {x: 40, y: -252}
+        - {x: 56, y: -250}
+        - {x: 64, y: -247}
+        - {x: 75, y: -244}
+    - name: SPPShooting
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 0
+        width: 542
+        height: 504
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: -248}
+        - {x: 52, y: -246}
+        - {x: 88, y: -234}
+        - {x: 124, y: -214}
+        - {x: 144, y: -199}
+        - {x: 176, y: -167}
+        - {x: 191, y: -146}
+        - {x: 198, y: -135}
+        - {x: 212, y: -107}
+        - {x: 220, y: -87}
+        - {x: 227, y: -67}
+        - {x: 237, y: -72}
+        - {x: 252, y: -72}
+        - {x: 263, y: -67}
+        - {x: 268, y: -60}
+        - {x: 270, y: -58}
+        - {x: 271, y: -55}
+        - {x: 271, y: -29}
+        - {x: 270, y: -27}
+        - {x: 262, y: -18}
+        - {x: 249, y: -12}
+        - {x: 235, y: -11}
+        - {x: 234, y: 9}
+        - {x: 233, y: 25}
+        - {x: 231, y: 48}
+        - {x: 221, y: 87}
+        - {x: 215, y: 99}
+        - {x: 204, y: 124}
+        - {x: 196, y: 138}
+        - {x: 180, y: 161}
+        - {x: 170, y: 173}
+        - {x: 142, y: 200}
+        - {x: 129, y: 211}
+        - {x: 107, y: 224}
+        - {x: 79, y: 237}
+        - {x: 63, y: 244}
+        - {x: 45, y: 249}
+        - {x: 31, y: 251}
+        - {x: 28, y: 252}
+        - {x: -61, y: 252}
+        - {x: -75, y: 249}
+        - {x: -90, y: 245}
+        - {x: -112, y: 236}
+        - {x: -140, y: 223}
+        - {x: -152, y: 216}
+        - {x: -171, y: 203}
+        - {x: -188, y: 189}
+        - {x: -215, y: 161}
+        - {x: -222, y: 152}
+        - {x: -240, y: 127}
+        - {x: -260, y: 84}
+        - {x: -267, y: 56}
+        - {x: -269, y: 46}
+        - {x: -271, y: 39}
+        - {x: -271, y: -37}
+        - {x: -269, y: -49}
+        - {x: -268, y: -54}
+        - {x: -264, y: -75}
+        - {x: -254, y: -99}
+        - {x: -251, y: -106}
+        - {x: -252, y: -122}
+        - {x: -263, y: -140}
+        - {x: -261, y: -154}
+        - {x: -257, y: -161}
+        - {x: -251, y: -168}
+        - {x: -238, y: -175}
+        - {x: -221, y: -174}
+        - {x: -215, y: -170}
+        - {x: -206, y: -174}
+        - {x: -185, y: -194}
+        - {x: -167, y: -208}
+        - {x: -150, y: -219}
+        - {x: -120, y: -234}
+        - {x: -103, y: -242}
+        - {x: -82, y: -248}
+        - {x: -58, y: -252}
+        - {x: 22, y: -252}
+        - {x: 34, y: -250}
+        - {x: 38, y: -249}
+    - name: SPPFoot
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 188
+        width: 59
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 64}
+        - {x: -29.5, y: 51}
+        - {x: -29.5, y: -42}
+        - {x: -28.5, y: -53}
+        - {x: -10.5, y: -64}
+        - {x: 21.5, y: -64}
+        - {x: 29.5, y: -56}
+        - {x: 29.5, y: 64}
+    - name: SPPPower
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 166
+        width: 172
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83, y: 51}
+        - {x: 38, y: 86}
+        - {x: -49, y: 86}
+        - {x: -86, y: 49}
+        - {x: -86, y: -78}
+        - {x: -56, y: -86}
+        - {x: 62, y: -86}
+        - {x: 79, y: -67}
+        - {x: 86, y: -36}
+        - {x: 86, y: 45}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
