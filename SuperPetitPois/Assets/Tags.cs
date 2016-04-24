@@ -13,4 +13,5 @@ public class Tags
 public class CharacterState
 {
     public static string Shooting = "Shooting";
+    public static string Transfering = "Transfering";
 }
